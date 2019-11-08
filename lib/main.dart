@@ -43,7 +43,7 @@ class BodyWidget extends StatelessWidget {
             onTap: () {
               Navigator.push(
     context,
-    MaterialPageRoute(builder: (context) => WikipediaExplorer()),
+    MaterialPageRoute(builder: (context) => Mapviewer()),
   );
             },
             selected: true,
@@ -72,7 +72,9 @@ class BodyWidget extends StatelessWidget {
     );
   }
 }
-
+//map is missed due to some error , list the vunlerable zone =>
+// https://www.google.com/maps/d/embed?mid=16JezFG3VFQs8khvSUAeQZJR1Ti_xGCNB&fbclid=IwAR1CVNMpRXoRb8qP16VWZN35uYI54V0FtiVy_9N4JFkak8ek_o5YQFNPDzM&ll=26.690351912093554%2C136.1518973499999&z=2 
+//visualiztion
 class HomePage extends StatefulWidget {
   final Widget child;
 
